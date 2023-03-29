@@ -1,0 +1,382 @@
+﻿
+*{
+    box-sizing: border-box;
+    margin: ;
+}
+
+.box-1 {
+    padding:20px;
+    width: 100%;
+    height: 460px;
+    display: flex;
+    flex-wrap: wrap;
+    /*margin-left:10px;*/
+
+    background-color: ;
+    margin-bottom:50px;
+}
+
+
+.box-1-1 {
+    
+    width: 50%;
+    background-color: ;
+    
+    padding-top: 100px;
+    
+    height: 500px;
+}
+
+.slogan-1 {
+    width:;
+    font-size: 3.5rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+}
+
+    .slogan-1:before {
+        color: dodgerblue;
+        content: "EAT";
+    }
+
+.slogan-2 {
+    font-size: 3.5rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+}
+
+    .slogan-2:before {
+        color: dodgerblue;
+        content: "LIVE";
+    }
+
+p {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    width:auto;
+    font-weight:normal;
+    
+}
+
+.box-1-2 img {
+    width:auto;
+}
+
+.box-1-2 {
+    display: flex;
+    justify-content: right;
+    float:left;
+    height:500px;
+    width: 49%;
+    background-color: ;
+}
+
+.btn {
+    margin-left: 10px;
+    margin-top:10px;
+    background-image: linear-gradient(to right,#98D6FF,#0299FF);
+    border-color: none;
+    border-radius: 4rem;
+    border: none;
+    height: 50px;
+    width: 160px;
+}
+
+    .btn a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.1rem;
+        
+        
+    }
+
+
+.box-2 {
+
+    height: 450px;
+    width: 100%;
+    background-image: url("E:/Programming/Task/Task-1/bg1-copy.png");
+    background-size: 100%;
+    display: flex;
+    justify-content:center;
+    margin-top:50px;
+}
+
+
+.box-2-1 {
+    padding-bottom: 60px;
+    width: 50%;
+    float: left;
+    width: 1000px;
+}
+box-2-1 img {
+    display:flex;
+    justify-content:right;
+    
+    
+    
+}
+.para-2 {
+    display: flex;
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    
+}
+.box-2-2 {
+    display:block;
+    justify-items:center;
+    
+    padding:20px;
+    width:65%;
+  
+}
+.btn-2 {
+    margin:20px;
+    background-image: linear-gradient(to right,#98D6FF,#0299FF);
+    border-color: none;
+    border-radius: 4rem;
+    border: none;
+    height: 50px;
+    width: 160px;
+}
+
+    .btn-2 a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.1rem;
+    }
+
+.slogan-3 {
+    margin:20px;
+    
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    
+    text-align;
+    float: left;
+    width: 100%;
+}
+
+.slogan-3:before {
+    color: dodgerblue;
+    content: "Healthy";
+}
+    .slogan-4 {
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    margin:40px;
+    width:100%;
+    text-align:center;
+    
+}
+    .slogan-4:before {
+        color: dodgerblue;
+        content: "HEALTHY";
+    }
+.para-3 {
+    font-size: 1rem;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+
+.all-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: normal;
+    padding-bottom: 50px;
+}
+.cardsA {
+    width: 300px;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    box-shadow: 4px 8px 20px #808080;
+    height: auto;
+    padding-bottom: 50px;
+    float: left;
+    margin: auto;
+}
+    .cardsA img {
+        margin:auto;
+        padding:15px;
+        width:100%;
+        border-radius:1.8rem;
+    }
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight:bold;
+    padding:20px;
+}
+.para-4 {
+    font-size: 1rem;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    
+    padding:10px;
+    
+    
+    
+}
+
+
+.item-1 {
+    grid-area: a;
+}
+
+.item-2 {
+    grid-area: b;
+}
+
+.item-3 {
+    grid-area: c;
+}
+.item-txtbox {
+    grid-area: e;
+    display:flex;
+    justify-content:center;
+}
+.subscribers {
+    background-image: url("E:/Programming/Task/Task-1/bg1-copy.png");
+    background-size: 100%;
+    display: grid;
+    grid-template-areas: 'a b c' 'd d d' 'e e e';
+    justify-items:center;
+    padding-bottom:20px;
+}
+
+
+p2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+h2 {
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+
+.textEmail {
+    resize: none;
+    width: 300px;
+    padding: 20px;
+    border-radius: 1rem;
+    border: solid 2px black;
+    color: #424949;
+    font-family: 'Poppins', sans-serif;
+}
+.inputSubs {
+    margin-left:10px;
+    border-radius: 3rem;
+    color: white;
+    background-image:linear-gradient(to right,#98D6FF,#0299FF);
+    border:none;
+    font-size:1rem;
+    width:150px;
+}
+.slogan-6 {
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    padding-top:100px;
+    width: 100%;
+    text-align: center;
+    padding-bottom:50px;
+}
+
+    .slogan-6:before {
+        color: dodgerblue;
+        content: "Feedback";
+    }
+
+.para-6 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    grid-area: d;
+    display: flex;
+    justify-items: center;
+    padding:50px;
+}
+
+.cardsB {
+    width: 300px;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    box-shadow: 4px 8px 20px #808080;
+    border-left:solid 5px #0099FF;
+    height: auto;
+    padding-bottom: 50px;
+    margin: auto;
+
+}
+
+    .cardsB img {
+        border-radius: 50%;
+        border: solid 4px #ADD8E6;
+        margin: 15px;
+        
+        width: 250px;
+        height: 250px;
+    }
+.cardB-img {
+    margin:15PX;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-i:center;
+    border:;
+}
+
+h4 {
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 5px;
+    font-weight: bolder;
+    text-align:center;
+}
+
+.footer {
+    background-color: #00001A;
+    height: 200px;
+    width: 100%;
+}
+.slogan-7 {
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    text-align: center;
+    color:white;
+    padding:50px;
+    font-weight:bolder;
+}
+
+    .slogan-7:before {
+        color: dodgerblue;
+        content: "FOOD";
+    }
+.para-5 {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+
+
+/*
+}*/
+    
