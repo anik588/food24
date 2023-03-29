@@ -241,7 +241,7 @@ h1 {
     justify-content:center;
 }
 .subscribers {
-    background-image: url("E:/Programming/Task/Task-1/bg1-copy.png");
+    background-image: url("bg1-copy.png");
     background-size: 100%;
     display: grid;
     grid-template-areas: 'a b c' 'd d d' 'e e e';
