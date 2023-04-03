@@ -1,4 +1,4 @@
-﻿
+
 *{
     box-sizing: border-box;
     margin: ;
@@ -20,7 +20,7 @@
 .box-1-1 {
     
     width: 50%;
-    background-color: ;
+   
     
     padding-top: 100px;
     
@@ -28,7 +28,7 @@
 }
 
 .slogan-1 {
-    width:;
+    
     font-size: 3.5rem;
     font-family: 'Open Sans', sans-serif;
     padding: 5px;
@@ -68,7 +68,7 @@ p {
     float:left;
     height:500px;
     width: 49%;
-    background-color: ;
+    
 }
 
 .btn {
@@ -93,9 +93,9 @@ p {
 
 .box-2 {
 
-    height: 450px;
+    height: 400px;
     width: 100%;
-    background-image: url("bg1-copy.png");
+    background-image: url("E:/Programming/Task/Task-1/bg1-copy.png");
     background-size: 100%;
     display: flex;
     justify-content:center;
@@ -107,7 +107,7 @@ p {
     padding-bottom: 60px;
     width: 50%;
     float: left;
-    width: 1000px;
+    width: 50%;
 }
 box-2-1 img {
     display:flex;
@@ -122,6 +122,8 @@ box-2-1 img {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     padding: 20px;
+    float:left;
+    
     
 }
 .box-2-2 {
@@ -171,10 +173,10 @@ box-2-1 img {
     text-align:center;
     
 }
-    .slogan-4:before {
-        color: dodgerblue;
-        content: "HEALTHY";
-    }
+        .slogan-4:before {
+            color: dodgerblue;
+            content: "Healthy";
+        }
 .para-3 {
     font-size: 1rem;
     margin: auto;
@@ -195,8 +197,8 @@ box-2-1 img {
     border-radius: 1rem;
     box-sizing: border-box;
     box-shadow: 4px 8px 20px #808080;
-    height: auto;
-    padding-bottom: 50px;
+    height: 700px;
+    padding-bottom: 20px;
     float: left;
     margin: auto;
 }
@@ -241,7 +243,7 @@ h1 {
     justify-content:center;
 }
 .subscribers {
-    background-image: url("bg1-copy.png");
+    background-image: url("E:/Programming/Task/Task-1/bg1-copy.png");
     background-size: 100%;
     display: grid;
     grid-template-areas: 'a b c' 'd d d' 'e e e';
@@ -313,8 +315,8 @@ h2 {
     box-sizing: border-box;
     box-shadow: 4px 8px 20px #808080;
     border-left:solid 5px #0099FF;
-    height: auto;
-    padding-bottom: 50px;
+    height: 600px;
+    padding-bottom: 20px;
     margin: auto;
 
 }
@@ -373,10 +375,3 @@ h4 {
 
 
 }
-
-
-
-
-/*
-}*/
-    
